@@ -13,6 +13,7 @@
 
 ### Running basic
 
+- From inside the repo folder:
 - `truffle develop`
 - From within the truffle console:
 - `compile`
@@ -25,6 +26,10 @@
 - You won't need to do anything like `truffle init` - this repo is already initialized.
 - [Truffle docs](http://truffleframework.com/docs/)
 - [Using the Truffle react preconfigured box](http://truffleframework.com/boxes/react)
+
+## Full tutorial on how to make a full stack decentralized app
+
+<https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2>
 
 ## Creating and connecting to a private network
 
