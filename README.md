@@ -3,7 +3,7 @@
 ## Installing
 
 - Install Git
-- Install [npm](https://www.npmjs.com/get-npm)
+- Install [npm](https://www.npmjs.com/get-npm) (or use homebrew/your package manager if you're on on Windows)
 - `npm install -g truffle`
 - Clone this repo `git clone https://github.com/dualscyther/bootcamp-feb-2018-group6.git`
 - Go to the repo `cd bootcamp-feb-2018-group6`
