@@ -22,6 +22,7 @@
 
 ## Working with Truffle
 
+- You won't need to do anything like `truffle init` - this repo is already initialized.
 - [Truffle docs](http://truffleframework.com/docs/)
 - [Using the Truffle react preconfigured box](http://truffleframework.com/boxes/react)
 
