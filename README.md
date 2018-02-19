@@ -6,6 +6,16 @@
 - [Install metamask](https://metamask.io/)
 - Clone this repo
 - `npm install`
+- [Install Ganache](http://truffleframework.com/ganache/)
+
+### Running basic
+
+- `truffle develop`
+- From within the truffle console:
+- `compile`
+- `migrate`
+- In a different tab (while the truffle console is still running):
+- `npm run start`
 
 ## Working with Truffle
 
