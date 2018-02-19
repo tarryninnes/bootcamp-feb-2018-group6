@@ -11,8 +11,9 @@
 - [Install metamask](https://metamask.io/)
 - [Install Ganache](http://truffleframework.com/ganache/)
 
-### Running basic
+### Running basic example
 
+- If you have already installed metamask then disable it in your browser for now
 - From inside the repo folder:
 - `truffle develop`
 - From within the truffle console:
