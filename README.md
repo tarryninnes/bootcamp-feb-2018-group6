@@ -2,10 +2,13 @@
 
 ## Installing
 
+- Install Git
+- Install [npm](https://www.npmjs.com/get-npm)
 - `npm install -g truffle`
-- [Install metamask](https://metamask.io/)
-- Clone this repo
+- Clone this repo `git clone https://github.com/dualscyther/bootcamp-feb-2018-group6.git`
+- Go to the repo `cd bootcamp-feb-2018-group6`
 - `npm install`
+- [Install metamask](https://metamask.io/)
 - [Install Ganache](http://truffleframework.com/ganache/)
 
 ### Running basic
