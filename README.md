@@ -16,6 +16,8 @@
 
 ### Running
 
+Windows users, if you are having issues then read [this](http://truffleframework.com/docs/advanced/configuration#resolving-naming-conflicts-on-windows) aka use Git BASH.
+
 #### Basic
 
 - If you have already installed metamask then disable it in your browser for now
