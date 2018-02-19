@@ -14,7 +14,9 @@
 - [Install Ganache](http://truffleframework.com/ganache/)
 - todo
 
-### Running basic example
+### Running
+
+#### Basic
 
 - If you have already installed metamask then disable it in your browser for now
 - From inside the repo folder:
@@ -22,8 +24,28 @@
 - From within the truffle console:
 - `compile`
 - `migrate`
-- In a different tab (while the truffle console is still running):
+- In a different tab (while the truffle console is still running - since while we are running the truffle console it is also functioning as our local blockchain):
 - `npm run start`
+
+#### With Ganache
+
+- Open Ganache
+- Make sure Ganache says that the RPC server is at HTTP://127.0.0.1:9545
+- From inside the repo folder but not inside the truffle console:
+- `truffle compile`
+- `truffle migrate`
+- `npm run start`
+
+#### With Ganache and MetaMask
+
+- Open Ganache etc...
+- Click your MetaMask browser extension icon and click import
+- Copy + paste the seed words that Ganache shows at the top
+- If you have already compiled, migrated, and are running the web app using `npm run start` then simply refresh the page. Else:
+  - `truffle compile`
+  - `truffle migrate`
+  - `npm run start`
+- When the page loads, MetaMask should display a pop up telling you to authorize the transaction (you might need to change your gas price to be non-zero if it isn't already done for you). Accept the prompt and it should work!
 
 ### What you need to run the full stack app
 
