@@ -1,6 +1,6 @@
 import React from 'react'
 import { inject, observer } from 'mobx-react';
-import { Drawer, TextField } from 'material-ui';
+import { Button, Drawer, TextField } from 'material-ui';
 
 const CreatePollDrawer = inject('uiStore')(observer((props) => {
   return (
@@ -12,6 +12,7 @@ const CreatePollDrawer = inject('uiStore')(observer((props) => {
       <TextField helperText={'Name'}></TextField>
       <TextField helperText={'Option 1'}></TextField>
       <TextField helperText={'Option 2'}></TextField>
+      <Button variant='raised' color='primary'>Create Poll</Button>
     </Drawer>
   );
 }));

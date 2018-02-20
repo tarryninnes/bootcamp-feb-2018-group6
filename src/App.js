@@ -45,7 +45,7 @@ class App extends React.Component {
             color="primary"
             onClick={() => this.uiStore.toggleCreatePollDrawer()}
           >
-            Create new poll            
+            Create new poll
           </Button>
         </div>
       </Provider>
