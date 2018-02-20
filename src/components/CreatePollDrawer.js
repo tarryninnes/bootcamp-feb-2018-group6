@@ -1,12 +1,14 @@
 import React from 'react'
-import { Drawer } from 'material-ui';
+import { inject, observer } from 'mobx-react';
+import { Button, Drawer } from 'material-ui';
 
-const CreatePollDrawer = (props) => {
+const CreatePollDrawer = inject('uiStore')(observer((props) => {
   return (
-    <Drawer>
+    <Drawer open={props.uiStore.drawerOpen}>
+      <Button onClick={() => props.uiStore.drawerOpen=false} />
       {'Your content here'}
     </Drawer>
   );
-}
+}));
 
 export default CreatePollDrawer;
