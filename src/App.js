@@ -3,11 +3,10 @@ import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 import { Button, IconButton, Drawer } from 'material-ui';
 
-class Store {
-  @observable foo = "hello"
-}
+import CreatePollDrawer from './components/CreatePollDrawer';
+import ResultDrawer from './components/ResultDrawer';
 
-const store = new Store();
+
 @observer
 class App extends React.Component {
   constructor(props) {
@@ -17,8 +16,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {store.foo}
-        <Button onClick={() => store.foo = "world"} />
+        <CreatePollDrawer />
+        <ResultDrawer />
       </div>
     );
   }
