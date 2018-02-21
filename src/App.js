@@ -7,7 +7,7 @@ import './css/open-sans.css'
 import './css/pure-min.css'
 import './App.css'
 
-// Hi Daniel
+// Hi Daniels
 class App extends Component {
   constructor(props) {
     super(props)
